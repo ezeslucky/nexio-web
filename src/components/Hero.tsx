@@ -86,13 +86,15 @@ export default function Hero({ onOpenDemo }: HeroProps) {
 
           {/* CTA Row */}
           <div className="flex flex-wrap items-center justify-center gap-3.5 sm:gap-4 mb-6">
-            <button
-              onClick={onOpenDemo}
+            <a
+              href="https://app.technexio.me"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-indigo-600 via-indigo-500 to-violet-600 hover:from-indigo-500 hover:to-violet-500 shadow-lg shadow-indigo-600/25 hover:shadow-indigo-600/40 transition-all transform active:scale-98"
             >
-              <span>Explore Nexio</span>
+              <span>Get Started</span>
               <ArrowRight className="w-4 h-4" />
-            </button>
+            </a>
 
             <a
               href="https://github.com/ezeslucky/nexio"

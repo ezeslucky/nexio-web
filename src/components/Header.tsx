@@ -447,7 +447,9 @@ export default function Header() {
 
             {/* Primary CTA */}
             <a
-              href="#hero"
+              href="https://app.technexio.me"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-4 py-1.5 text-xs font-semibold text-white bg-gradient-to-r from-[#0284c7] to-[#2563eb] hover:opacity-95 rounded-full transition-all duration-150 shadow-sm hover:shadow"
             >
               Get Started

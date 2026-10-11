@@ -282,23 +282,27 @@ export default function Navbar({ onOpenDemo }: NavbarProps) {
             </a>
 
             {/* Primary CTA */}
-            <button
-              onClick={onOpenDemo}
+            <a
+              href="https://app.technexio.me"
+              target="_blank"
+              rel="noopener noreferrer"
               className="relative inline-flex items-center justify-center gap-1.5 px-4 py-1.5 rounded-lg text-xs font-semibold text-white bg-gradient-to-r from-indigo-600 via-indigo-500 to-violet-600 hover:from-indigo-500 hover:to-violet-500 shadow-md shadow-indigo-500/20 transition-all transform active:scale-95"
             >
               <span>Get Started</span>
               <ArrowRight className="w-3.5 h-3.5" />
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Toggle Button */}
           <div className="flex sm:hidden items-center gap-2">
-            <button
-              onClick={onOpenDemo}
+            <a
+              href="https://app.technexio.me"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-2.5 py-1 text-xs font-semibold text-white bg-indigo-600 rounded-md"
             >
-              Try
-            </button>
+              Get Started
+            </a>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="p-1.5 rounded-lg text-[#a6a09b] hover:text-[#fafaf9] hover:bg-[#1a1816] focus:outline-none"
@@ -370,16 +374,16 @@ export default function Navbar({ onOpenDemo }: NavbarProps) {
                 <span className="font-mono text-indigo-400 font-semibold">★ {formattedStars}</span>
               </a>
 
-              <button
-                onClick={() => {
-                  setMobileMenuOpen(false);
-                  onOpenDemo?.();
-                }}
+              <a
+                href="https://app.technexio.me"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
                 className="w-full py-2.5 text-center text-xs font-semibold text-white bg-indigo-600 rounded-lg flex items-center justify-center gap-1.5"
               >
                 <span>Get Started with Nexio</span>
                 <ArrowRight className="w-3.5 h-3.5" />
-              </button>
+              </a>
             </div>
           </div>
         )}

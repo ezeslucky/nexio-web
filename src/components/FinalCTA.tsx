@@ -39,13 +39,15 @@ export default function FinalCTA({ onOpenDemo }: FinalCTAProps) {
 
           {/* Action Buttons */}
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <button
-              onClick={onOpenDemo}
+            <a
+              href="https://app.technexio.me"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-indigo-600 via-indigo-500 to-violet-600 hover:from-indigo-500 hover:to-violet-500 shadow-xl shadow-indigo-600/30 hover:shadow-indigo-600/50 transition-all transform active:scale-98"
             >
               <span>Get Started with Nexio</span>
               <ArrowRight className="w-4 h-4" />
-            </button>
+            </a>
 
             <a
               href="https://github.com/ezeslucky/nexio"

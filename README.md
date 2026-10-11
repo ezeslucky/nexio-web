@@ -9,6 +9,7 @@
   </p>
   <p>
     <a href="https://github.com/ezeslucky/nexio"><img src="https://img.shields.io/github/stars/ezeslucky/nexio?style=social" alt="GitHub Stars" /></a>
+    <a href="https://app.technexio.me"><img src="https://img.shields.io/badge/launch-app.technexio.me-purple" alt="Launch App" /></a>
     <a href="https://hub.docker.com/r/ezeslucky441/nexio"><img src="https://img.shields.io/badge/docker-ezeslucky441%2Fnexio-blue?logo=docker" alt="Docker Image" /></a>
     <a href="https://x.com/ezeslucky"><img src="https://img.shields.io/badge/follow-%40ezeslucky-black?logo=x" alt="X Follow" /></a>
     <img src="https://img.shields.io/badge/license-Apache--2.0-indigo" alt="License" />
@@ -65,6 +66,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 ## 🌐 Community & Links
 
+- **Web App:** [app.technexio.me](https://app.technexio.me)
 - **Main Repository:** [ezeslucky/nexio](https://github.com/ezeslucky/nexio)
 - **X (Twitter):** [@ezeslucky](https://x.com/ezeslucky)
 - **LinkedIn:** [ezeslucky](https://www.linkedin.com/in/ezeslucky)

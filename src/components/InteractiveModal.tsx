@@ -165,16 +165,25 @@ export default function InteractiveModal({
                   </button>
                 </div>
               ) : (
-                <div className="pt-2">
-                  <button
-                    onClick={handleLaunchSandbox}
+                <div className="pt-2 space-y-2.5">
+                  <a
+                    href="https://app.technexio.me"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-full py-3 rounded-xl text-xs font-semibold text-white bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 shadow-lg shadow-indigo-600/25 flex items-center justify-center gap-2 transition-all active:scale-98"
                   >
-                    <span>Launch Sandbox Environment</span>
+                    <span>Launch Web App (app.technexio.me)</span>
                     <ArrowRight className="w-4 h-4" />
+                  </a>
+
+                  <button
+                    onClick={handleLaunchSandbox}
+                    className="w-full py-2.5 rounded-xl text-xs font-medium text-[#a6a09b] hover:text-[#fafaf9] bg-[#141210] hover:bg-[#1a1816] border border-[#292524] flex items-center justify-center gap-2 transition-all"
+                  >
+                    <span>Or Explore In-Page Sandbox</span>
                   </button>
                   <p className="text-[11px] font-mono text-center text-[#78716c] mt-2">
-                    Ephemeral session · Encrypted in memory · 100% Client-side
+                    Live production app · Instant access · Local-first &amp; Cloud Sync
                   </p>
                 </div>
               )}
