@@ -99,6 +99,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/logging-sentinel" className="text-amber-300 hover:text-amber-200 transition-colors flex items-center gap-1.5 font-medium">
+                  <span>AI Logging Sentinel</span>
+                  <span className="text-[9px] font-mono px-1 py-0.2 rounded bg-amber-500/20 text-amber-300">NEW</span>
+                </Link>
+              </li>
+              <li>
                 <Link href="#templates" className="hover:text-[#fafaf9] transition-colors">
                   Slide Canvases
                 </Link>

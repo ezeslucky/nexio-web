@@ -24,6 +24,7 @@ Nexio unifies wikis, knowledge management, presentation canvases, and visual AI 
 
 - **Infinite Canvas:** Edgeless 2D thinking surface with docs, sticky notes, connectors, and slides.
 - **Visual AI Workflow Studio:** Node-based automation connecting triggers, LLMs (GPT-4o, Claude 3.5 Sonnet, Fal AI), logic, and canvas actions.
+- **AI Logging Sentinel:** Developer tool analyzing repositories for swallowed errors, unmonitored database transactions, and blind APIs, with before/after AST patch reviews.
 - **Local-First & Private:** Embedded SQLite storage with instant local latency and air-gapped AI capabilities.
 - **Self-Hostable:** Run anywhere in seconds with Docker.
 

@@ -7,6 +7,7 @@ import ThreePillars from "@/components/ThreePillars";
 import InfiniteCanvasSection from "@/components/InfiniteCanvasSection";
 import WorkflowStudioSection from "@/components/WorkflowStudioSection";
 import WorkspaceAISection from "@/components/WorkspaceAISection";
+import LoggingAuditSection from "@/components/LoggingAuditSection";
 import ConnectedKnowledgeSection from "@/components/ConnectedKnowledgeSection";
 import LocalFirstSection from "@/components/LocalFirstSection";
 import OpenSourceSection from "@/components/OpenSourceSection";
@@ -76,6 +77,9 @@ export default function Home() {
 
       {/* 6. Section F — AI That Understands Your Workspace: "AI that works where your ideas live." */}
       <WorkspaceAISection />
+
+      {/* NEW: AI-Powered Developer Tool — Repository Logging Gap Sentinel */}
+      <LoggingAuditSection />
 
       {/* 7. Section G — One Connected Knowledge System: "Everything connected. Nothing fragmented." */}
       <ConnectedKnowledgeSection />

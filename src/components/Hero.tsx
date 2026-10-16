@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import {
   Sparkles,
   ArrowRight,
@@ -50,19 +51,19 @@ export default function Hero({ onOpenDemo }: HeroProps) {
         {/* Header Eyebrow & Announcement Badge */}
         <div className="flex flex-col items-center text-center">
           {/* Strand-Style Top Announcement Pill */}
-          <a
-            href="#workflows"
-            className="inline-flex items-center gap-2 px-3 py-1.5 mb-7 rounded-full bg-[#181614] hover:bg-[#211e1b] border border-[#292524] hover:border-indigo-500/40 text-xs font-medium text-[#fafaf9] transition-all group shadow-sm max-w-[92vw] overflow-hidden"
+          <Link
+            href="/logging-sentinel"
+            className="inline-flex items-center gap-2 px-3.5 py-1.5 mb-7 rounded-full bg-[#181614] hover:bg-[#211e1b] border border-amber-500/30 hover:border-amber-400/50 text-xs font-medium text-[#fafaf9] transition-all group shadow-sm max-w-[92vw] overflow-hidden"
           >
-            <span className="flex h-2 w-2 rounded-full bg-indigo-500 animate-pulse flex-shrink-0" />
-            <span className="text-indigo-400 font-semibold tracking-wide uppercase text-[10px] bg-indigo-500/10 px-1.5 py-0.5 rounded flex-shrink-0">
-              New
+            <span className="flex h-2 w-2 rounded-full bg-amber-400 animate-pulse flex-shrink-0" />
+            <span className="text-amber-400 font-semibold tracking-wide uppercase text-[10px] bg-amber-500/10 px-1.5 py-0.5 rounded flex-shrink-0">
+              New Tool
             </span>
             <span className="text-[#a6a09b] group-hover:text-[#fafaf9] transition-colors truncate">
-              Nexio 2.0 with Visual AI Workflows & Infinite Canvas is live
+              AI Repo Logging Sentinel: Detect observability blindspots before production
             </span>
-            <ArrowRight className="w-3.5 h-3.5 text-[#78716c] group-hover:text-indigo-400 transition-transform group-hover:translate-x-0.5 flex-shrink-0" />
-          </a>
+            <ArrowRight className="w-3.5 h-3.5 text-[#78716c] group-hover:text-amber-400 transition-transform group-hover:translate-x-0.5 flex-shrink-0" />
+          </Link>
 
           {/* Eyebrow */}
           <div className="text-[11px] sm:text-xs md:text-sm font-mono tracking-widest text-indigo-400 uppercase font-semibold mb-4 flex items-center gap-2">
