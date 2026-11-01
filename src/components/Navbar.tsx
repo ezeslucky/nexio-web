@@ -304,31 +304,6 @@ export default function Navbar({ onOpenDemo }: NavbarProps) {
             >
               Documentation
             </Link>
-
-            <Link
-              href="/diagram-studio"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center justify-between px-3 py-2 text-sm text-indigo-300 rounded-lg bg-indigo-500/10 border border-indigo-500/20"
-            >
-              <span className="flex items-center gap-2">
-                <Sparkles className="w-4 h-4 text-indigo-400" />
-                <span>AI Diagram Studio</span>
-              </span>
-              <span className="text-[10px] font-mono uppercase bg-indigo-500/20 px-1.5 py-0.5 rounded text-indigo-300 font-semibold">
-                Workspace
-              </span>
-            </Link>
-
-            <Link
-              href="/logging-sentinel"
-              className="flex items-center gap-1 px-3 py-1.5 text-sm font-medium text-amber-300/90 hover:text-amber-200 rounded-lg transition-colors group"
-            >
-              <Sparkles className="w-3.5 h-3.5 text-amber-400 group-hover:scale-110 transition-transform" />
-              <span>Sentinel</span>
-              <span className="text-[10px] uppercase font-mono px-1.5 py-0.2 rounded bg-amber-500/15 border border-amber-500/30 text-amber-300 font-semibold ml-0.5">
-                New
-              </span>
-            </Link>
           </nav>
 
           {/* Right Action Buttons */}
@@ -422,34 +397,6 @@ export default function Navbar({ onOpenDemo }: NavbarProps) {
               className="block px-3 py-2 text-sm text-[#fafaf9] rounded-lg hover:bg-[#1c1917]"
             >
               Open Source & GitHub
-            </Link>
-
-            <Link
-              href="/diagram-studio"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center justify-between px-3 py-2 text-sm text-indigo-300 rounded-lg bg-indigo-500/10 border border-indigo-500/20"
-            >
-              <span className="flex items-center gap-2">
-                <Sparkles className="w-4 h-4 text-indigo-400" />
-                <span>AI Diagram Studio</span>
-              </span>
-              <span className="text-[10px] font-mono uppercase bg-indigo-500/20 px-1.5 py-0.5 rounded text-indigo-300 font-semibold">
-                Workspace
-              </span>
-            </Link>
-
-            <Link
-              href="/logging-sentinel"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center justify-between px-3 py-2 text-sm text-amber-300 rounded-lg bg-amber-500/10 border border-amber-500/20"
-            >
-              <span className="flex items-center gap-2">
-                <Sparkles className="w-4 h-4 text-amber-400" />
-                <span>AI Logging Sentinel</span>
-              </span>
-              <span className="text-[10px] font-mono uppercase bg-amber-500/20 px-1.5 py-0.5 rounded text-amber-300 font-semibold">
-                New Tool
-              </span>
             </Link>
 
             <div className="pt-3 border-t border-[#292524] flex flex-col gap-2">
