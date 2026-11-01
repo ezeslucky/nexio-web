@@ -154,6 +154,26 @@ export default function Navbar({ onOpenDemo }: NavbarProps) {
                       </div>
                     </Link>
                     <Link
+                      href="/diagram-studio"
+                      className="flex items-start gap-3 p-2.5 rounded-lg hover:bg-[#1f1c19] transition-colors group border border-indigo-500/30 bg-indigo-500/10"
+                      onClick={() => setActiveDropdown(null)}
+                    >
+                      <div className="p-2 rounded-md bg-indigo-500/15 border border-indigo-500/30 text-indigo-400 group-hover:bg-indigo-500/25">
+                        <Sparkles className="w-4 h-4" />
+                      </div>
+                      <div>
+                        <div className="text-sm font-medium text-[#fafaf9] group-hover:text-indigo-300 flex items-center gap-1.5">
+                          <span>AI Diagram Studio</span>
+                          <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-indigo-500/25 text-indigo-300 font-semibold">
+                            NEW WORKSPACE
+                          </span>
+                        </div>
+                        <p className="text-xs text-[#a6a09b] line-clamp-1">
+                          Eraser-inspired architecture, Diagram as Code &amp; AI
+                        </p>
+                      </div>
+                    </Link>
+                    <Link
                       href="/logging-sentinel"
                       className="flex items-start gap-3 p-2.5 rounded-lg hover:bg-[#1f1c19] transition-colors group border border-amber-500/20 bg-amber-500/5"
                       onClick={() => setActiveDropdown(null)}
@@ -286,6 +306,20 @@ export default function Navbar({ onOpenDemo }: NavbarProps) {
             </Link>
 
             <Link
+              href="/diagram-studio"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center justify-between px-3 py-2 text-sm text-indigo-300 rounded-lg bg-indigo-500/10 border border-indigo-500/20"
+            >
+              <span className="flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-indigo-400" />
+                <span>AI Diagram Studio</span>
+              </span>
+              <span className="text-[10px] font-mono uppercase bg-indigo-500/20 px-1.5 py-0.5 rounded text-indigo-300 font-semibold">
+                Workspace
+              </span>
+            </Link>
+
+            <Link
               href="/logging-sentinel"
               className="flex items-center gap-1 px-3 py-1.5 text-sm font-medium text-amber-300/90 hover:text-amber-200 rounded-lg transition-colors group"
             >
@@ -388,6 +422,20 @@ export default function Navbar({ onOpenDemo }: NavbarProps) {
               className="block px-3 py-2 text-sm text-[#fafaf9] rounded-lg hover:bg-[#1c1917]"
             >
               Open Source & GitHub
+            </Link>
+
+            <Link
+              href="/diagram-studio"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center justify-between px-3 py-2 text-sm text-indigo-300 rounded-lg bg-indigo-500/10 border border-indigo-500/20"
+            >
+              <span className="flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-indigo-400" />
+                <span>AI Diagram Studio</span>
+              </span>
+              <span className="text-[10px] font-mono uppercase bg-indigo-500/20 px-1.5 py-0.5 rounded text-indigo-300 font-semibold">
+                Workspace
+              </span>
             </Link>
 
             <Link

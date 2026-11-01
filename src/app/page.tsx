@@ -8,6 +8,7 @@ import InfiniteCanvasSection from "@/components/InfiniteCanvasSection";
 import WorkflowStudioSection from "@/components/WorkflowStudioSection";
 import WorkspaceAISection from "@/components/WorkspaceAISection";
 import LoggingAuditSection from "@/components/LoggingAuditSection";
+import DiagramStudioSection from "@/components/DiagramStudioSection";
 import ConnectedKnowledgeSection from "@/components/ConnectedKnowledgeSection";
 import LocalFirstSection from "@/components/LocalFirstSection";
 import OpenSourceSection from "@/components/OpenSourceSection";
@@ -80,6 +81,9 @@ export default function Home() {
 
       {/* NEW: AI-Powered Developer Tool — Repository Logging Gap Sentinel */}
       <LoggingAuditSection />
+
+      {/* NEW WORKSPACE: AI Diagram Studio — Eraser.io Inspired Architecture Workspace */}
+      <DiagramStudioSection />
 
       {/* 7. Section G — One Connected Knowledge System: "Everything connected. Nothing fragmented." */}
       <ConnectedKnowledgeSection />
